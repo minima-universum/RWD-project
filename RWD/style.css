@@ -1,0 +1,27 @@
+#foundation {
+  background-color: #EDEDED; }
+  #foundation #top {
+    background-color: #E6E7E9; }
+  #foundation #logomenu {
+    background-color: #4C8F96; }
+  #foundation #zizurz {
+    padding: 35px 35px;
+    background-color: #222842;
+    color: #fff;
+    font-size: 3.5em;
+    margin-top: 25px; }
+  #foundation #menu-buttons li a {
+    font-family: Sans-serif;
+    margin-left: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 16px;
+    color: #ffffeb;
+    background-color: #1b2130;
+    font-size: 0.8em;
+    border-radius: 5px; }
+  #foundation #quote {
+    font-size: 3.5em;
+    display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */
