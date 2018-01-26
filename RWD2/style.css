@@ -1,0 +1,56 @@
+#foundation {
+  background-color: #EDEDED; }
+  #foundation .container-fluid {
+    background-color: #E6E7E9; }
+  #foundation #top-mobile {
+    display: none; }
+  #foundation #logomenu {
+    background-color: #4C8F96;
+    height: 170px; }
+  #foundation #zizurz {
+    padding: 35px 35px;
+    background-color: #222842;
+    color: #fff;
+    font-size: 3.5em;
+    margin-top: 25px; }
+  #foundation #menu-buttons li a {
+    font-family: Sans-serif;
+    margin-left: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 16px;
+    color: #ffffeb;
+    background-color: #1b2130;
+    font-size: 0.8em;
+    border-radius: 5px; }
+  #foundation #mobile-menu {
+    display: none; }
+  #foundation .jumbotron {
+    border-color: #4C8F96;
+    border-style: solid;
+    border-width: 3px;
+    background-image: url("hairgirl.jpg");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    height: 355px; }
+    #foundation .jumbotron h1 {
+      padding: 1em; }
+    #foundation .jumbotron h2 {
+      display: none; }
+  @media (max-width: 768px) {
+    #foundation #top {
+      display: none; }
+    #foundation #top-mobile {
+      display: block; }
+    #foundation #mobile-menu {
+      display: block; }
+    #foundation .jumbotron {
+      background-position: center; }
+      #foundation .jumbotron h2 {
+        margin-top: 190px;
+        display: block;
+        background-color: rgba(255, 255, 255, 0.5); }
+      #foundation .jumbotron .quote {
+        display: none; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,91 @@
+#foundation {
+    background-color: #EDEDED;
+    
+    .container-fluid {
+        background-color: #E6E7E9;
+    }
+    #top {
+        
+    }
+    #top-mobile{
+        display:none;
+    }
+    
+    #logomenu {
+    background-color: #4C8F96;
+        height: 170px;
+    
+  
+        .container h1 {
+        
+        }
+     }
+    #zizurz {
+        padding: 35px 35px;
+	   background-color: #222842;
+        color: #fff;
+        font-size: 3.5em;
+        margin-top: 25px;
+    }
+    #menu-buttons li a {
+        font-family: Sans-serif;
+        margin-left: 25px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px 16px;
+        color: #ffffeb;
+        background-color: #1b2130;
+        font-size: 0.8em;
+        border-radius: 5px;
+
+    }
+     #mobile-menu {
+            display: none;
+        }
+    .jumbotron {
+        border-color: #4C8F96;
+        border-style: solid;
+        border-width:3px;
+        background-image: url('hairgirl.jpg');
+        background-repeat: no-repeat;
+        background-color: #fff;
+        height: 355px;
+        h1 {
+            
+            padding:1em;
+        } 
+        h2 {
+            display: none;
+        }
+    }
+    @media (max-width: 768px) {
+        #top {
+            display:none;
+        }
+        #top-mobile {
+            display:block;
+        }
+        #mobile-menu {
+            display: block;
+        }
+        .jumbotron {
+                
+              background-position: center; 
+                
+                h2 {
+                    margin-top:190px;
+                    display:block;
+                    background-color: rgba(255,255,255,0.5);
+                }
+                
+            .quote{
+                display:none;
+            }
+        }
+    }
+    
+    
+}
+
+
+
